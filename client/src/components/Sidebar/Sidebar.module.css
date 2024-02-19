@@ -1,0 +1,37 @@
+.select__sidebar {
+  width: 350px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.select__sidebar h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.select__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.select__container select {
+  background-color: #DED8CB;
+  width: 320px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 0px 30px 30px 0;
+  cursor: pointer;
+}
+
+
+.select__container select option:first-child {
+  color: #999; /* Color para la opción desactivada */
+}
+
+

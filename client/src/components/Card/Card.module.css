@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  transition: all 400ms ease-in-out;
+  margin: 10px;
+  /* background: #fff; */
+  background: #DED8CB;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 230px;
+  max-height: 270px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.025);
+}
+
+.card__figure {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 250px;
+}
+
+.card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.card__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 20px;
+  min-height: 80px;
+}
+
+.card__title {
+  margin: 0 0 5px;
+}
+
+.card__p {
+  font-family: 'Raleway';
+  font-size: 15px;
+  margin: 0 0 15px;
+  color: #555;
+}

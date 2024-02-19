@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo__figure {
+  width: 30%;
+  max-width: 120px;
+}
+
+.logo__image {
+  width: 100px;
+  display: block;
+}
+
+.logo__title {
+  font-size: 36px;
+  padding-left: 10px;
+  color: #474747;
+}
+
+.logo span {
+  color: #fff;
+}
